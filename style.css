@@ -1,0 +1,40 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height:100vh;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    border: 1px solid transparent;
+    background-color: #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom:10px;
+    width:500px;
+    cursor: move;
+}
+
+.box.over {
+    border: 3px dotted #eceff1;
+  }
+
+.box{
+    display:flex;
+}
+
+.box h5{
+    margin:0;
+    width:100%;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(94, 91, 91)
+}
+
+
+.box i{
+    color:rgb(94, 91, 91)
+}
